@@ -1,9 +1,7 @@
 Solar Fountain Exhibit
 =========================
 
-[![Solar Fountain](https://github.com/nseidle/Solar_Fountain/blob/master/Solar%20Fountain%20at%20WOW.jpg)
-
-[*ML8511 UV Sensor (SEN-12705)*](https://www.sparkfun.com/products/12705)
+![Solar Fountain](https://raw.githubusercontent.com/nseidle/Solar_Fountain/master/Solar%20Fountain%20at%20WOW.jpg)
 
 The solar fountain is an exhibit designed by Bill Cameron. It uses three 18V solar panels to directly feed 3 marine pumps that push water out three fountains.
  
