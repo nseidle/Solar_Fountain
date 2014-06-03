@@ -3,7 +3,7 @@ Solar Fountain Exhibit
 
 ![Solar Fountain](https://raw.githubusercontent.com/nseidle/Solar_Fountain/master/Solar%20Fountain%20at%20WOW.jpg)
 
-The solar fountain is an exhibit designed by Bill Cameron. It uses three 18V solar panels to directly feed 3 marine pumps that push water out three fountains.
+The solar fountain is an exhibit designed by Bill Camero. It uses three 18V solar panels to directly feed 3 marine pumps that push water out three fountains.
 
 File Info
 -------------------
