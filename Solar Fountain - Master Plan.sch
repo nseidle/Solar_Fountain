@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -105,7 +105,7 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic>
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun">
 <packages>
@@ -199,7 +199,7 @@ Switch</text>
 <text x="63.5" y="104.14" size="1.778" layer="97">Black wire on pump is -</text>
 <text x="22.86" y="149.86" size="1.778" layer="97">White wire on solar panel is +~18V</text>
 <text x="22.86" y="147.32" size="1.778" layer="97">Thick brown wire on solar panel is -~18V.</text>
-<text x="22.86" y="144.78" size="1.778" layer="97">One panel (with short wires) is sometimes wired for 9V.</text>
+<text x="22.86" y="144.78" size="1.778" layer="97">The SW panel is wired for 9V to limit height of jet.</text>
 <text x="63.5" y="101.6" size="1.778" layer="97">Pump is 500GPH...</text>
 <text x="154.94" y="124.46" size="1.778" layer="97">The negative solar wires (thick brown) 
 are bussed together on terminal #1</text>
@@ -221,9 +221,9 @@ to service system.</text>
 that is negative. 
 It requires an extension wire to connect 
 from the exit from the cement to bus terminal</text>
-<text x="12.7" y="91.44" size="1.778" layer="97">Turn large main black pipe
-valve to off (orthagonal or
-perpendicular) when replacing pump.</text>
+<text x="12.7" y="91.44" size="1.778" layer="97">When replacing a pump turn the large 
+main black valve to off (orthagonal or
+perpendicular) to the pipe</text>
 <text x="129.54" y="111.76" size="1.778" layer="94">Terminal 
 block #1
 Panels (-)</text>
@@ -253,13 +253,25 @@ Tournament Series Livewell Pumps
 <text x="134.62" y="73.66" size="1.778" layer="97">(white)</text>
 <text x="134.62" y="83.82" size="1.778" layer="97">(gray)</text>
 <text x="134.62" y="104.14" size="1.778" layer="97">(gray)</text>
-<text x="10.16" y="50.8" size="1.778" layer="97">A new pump has coil resistance of ~3.5Ohm</text>
-<text x="10.16" y="48.26" size="1.778" layer="97">A used pump has coil resistance of ~2.5Ohm</text>
+<text x="10.16" y="50.8" size="1.778" layer="97">A new pump has coil resistance of ~3.5 Ohm</text>
+<text x="10.16" y="48.26" size="1.778" layer="97">A used pump has coil resistance of ~2.5 Ohm</text>
 <text x="99.06" y="167.64" size="1.778" layer="97">Three solar panels feed three pumps.
 The solar panels are adjusted to be
 tangential to the incoming sunlight for
 maximum fountain height.
-Height varies from around 1ft to about 4ft.</text>
+Height of water jets vary from around
+1ft to about 4ft.</text>
+<text x="149.86" y="142.24" size="1.778" layer="97">Three panels are labeled N, SW, and SE</text>
+<text x="10.16" y="45.72" size="1.778" layer="97">A seized or broken pump has coil resistance of</text>
+<text x="149.86" y="139.7" size="1.778" layer="97">Each panel has a 3 amp automotive fuse</text>
+<text x="154.94" y="104.14" size="1.778" layer="97">To test whether the panel or the pump is the problem:</text>
+<text x="157.48" y="83.82" size="1.778" layer="97">1) Disconnect solar White+ wire from pump
+2) Measure voltage between solar White+ 
+wire and solar brown wire
+3) If voltage is 0V, check fuse and connections
+at solar panel
+4) If voltage is greater than 0V then check
+bus connections and consider replacing pump</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
